@@ -1,5 +1,7 @@
 # react-interactive-calculator
 
+![demo](https://raw.githubusercontent.com/andrewjong/react-interactive-calculator/master/demo.png)
+
 ## Install
 
 * **Note: requires a node version >= 6 and an npm version >= 3.**
