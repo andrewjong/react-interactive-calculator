@@ -15,8 +15,8 @@
     "flowtype/space-before-generic-bracket": [2, "never"],
     "flowtype/space-before-type-colon": [2, "never"],
     "flowtype/union-intersection-spacing": [2, "always"],
-    "flowtype/use-flow-type": 2,
-    "flowtype/valid-syntax": 2,
-    "flowtype-errors/show-errors": 2
+    "flowtype/use-flow-type": 0,
+    "flowtype/valid-syntax": 0,
+    "flowtype-errors/show-errors": 0
   }
 }
