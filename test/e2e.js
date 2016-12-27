@@ -13,7 +13,7 @@ describe('main window', function spec() {
   before(async () => {
     this.app = new Application({
       path: electronPath,
-      args: [path.join(__dirname, '..', 'app')],
+      args: [path.join(__dirname, '..', 'app')]
     });
     return this.app.start();
   });
