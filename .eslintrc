@@ -9,7 +9,7 @@
   "rules": {
     "arrow-parens": ["off"],
     "consistent-return": "off",
-    "comma-dangle": "off",
+    "comma-dangle": ["error", "never"],
     "generator-star-spacing": "off",
     "import/no-unresolved": ["error", { "ignore": ["electron"] }],
     "import/no-extraneous-dependencies": "off",

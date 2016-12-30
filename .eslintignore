@@ -1,0 +1,4 @@
+flow-typed
+resources
+app/dist
+app/main.js
