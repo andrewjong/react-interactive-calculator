@@ -10,12 +10,6 @@ let identifiers = {
   GROUPINGS: {'{', '[', '('}
 };
 
-function identify(tokens) {
-  for (let i = 0; i < tokens.length; i++) {
-    
-  }
-}
-
 type ASTNode = {
   Root: {}
 };
