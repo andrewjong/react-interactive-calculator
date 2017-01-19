@@ -3,11 +3,12 @@
  * @flow
  */
 
-// A list of dentifiers containing the keywords and values associated with them. We will ignore anything that is not a keyword.
-let identifiers = {
-  NUMBERS: {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'},
-  BASIC_OPERATIONS: {'+', '-', '*', '/', '^'},
-  GROUPINGS: {'{', '[', '('}
+// A list of dentifiers containing the keywords and values associated with them.
+// We will ignore anything that is not a keyword.
+export const identifiers = {
+  NUMBERS: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+  BASIC_OPERATIONS: ['+', '-', '*', '/', '^'],
+  GROUPINGS: ['{', '[', '(']
 };
 
 type ASTNode = {
@@ -16,7 +17,7 @@ type ASTNode = {
 
 export default function AST(phrases: string): ASTNode {
   // Ex. split 'one plus two' into ['one', 'plus', 'two']
-  const tokens = phrases.split(' ').filter(e => e !== '');
+  // const tokens = phrases.split(' ').filter(e => e !== '');
 
   // Categorize:
   //
