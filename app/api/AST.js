@@ -17,7 +17,7 @@ type ASTNode = {
 
 export default function AST(phrases: string): ASTNode {
   // Ex. split 'one plus two' into ['one', 'plus', 'two']
-  const tokens = phrases.split(' ').filter(e => e !== '');
+  // const tokens = phrases.split(' ').filter(e => e !== '');
 
   // Categorize:
   //
